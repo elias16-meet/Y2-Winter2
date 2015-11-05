@@ -1,0 +1,28 @@
+<html>
+	<head>
+			<title> contact me </title>
+	</head>
+
+	<body>
+		<h1 class="pet" > to contact me :) </h1>
+		
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='contact.css')}}">
+
+		<p class="para"> if any one want's to know about me more and contact me he can add me on facebook </p>
+
+		<p> and my page looks like this </p>
+		
+		<img class="dan" src="{{ url_for('static', filename = 'dan.png')}}">
+
+		<ul>
+			<li> <a href="{{ url_for('index')}}"> home page </a> </li>
+
+		</ul>
+
+		<ul>
+			<li> <a href="{{ url_for('about')}}"> about me</a> </li>
+
+		</ul>
+
+	</body>
+</html>

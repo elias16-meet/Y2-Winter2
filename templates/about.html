@@ -1,0 +1,38 @@
+<html>
+	<head>
+			<title> about me</title>
+	</head>
+
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='about.css')}}">
+
+	<body>
+		<h1 class="star"> ABOUT ME !!!!!!!! </h1>
+
+		<h2> NAME: </h2>
+
+		<p> my name is elias </p>
+
+		<h2> EDUCATION: </h2>
+
+		<p> study in nazareth at the baptist school </p>
+
+		<h2> AGE: </h2>
+		
+		<p>  I'm 16 years old </p>
+
+		<h2>HOMETOWN:</h2>
+
+		<p>lives in ramah village in the north </p>
+		
+		<ul>
+			<li> <a href="{{ url_for('index')}}"> home page </a> </li>
+
+		</ul>
+	
+	<ul>
+			<li> <a href="{{ url_for('contact')}}"> contact me </a> </li>
+
+		</ul>
+
+	</body>
+</html>

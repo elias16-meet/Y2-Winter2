@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'index.css')}}">
+		<title> elias home page </title>
+	</head>
+
+	<body>
+		<h1 class="zippo"> The Home Page </h1>
+		<h2> elias kassis </h2>
+		
+		<ul>
+			<li> <a href="{{ url_for('about')}}"> about me </a> </li>
+
+		</ul>
+
+		<ul>
+			<li> <a href="{{ url_for('contact')}}"> contact me </a> </li>
+
+		</ul>
+
+		<img class="connan" src="{{ url_for('static',filename = '11954740_10203477760624467_8127350931234006414_n.jpg')}}">
+
+	</body>
+
+
+
+</html>
